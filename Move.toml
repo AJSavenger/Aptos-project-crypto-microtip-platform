@@ -1,0 +1,15 @@
+[package]
+name = "CryptoMicrotipPlatform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x688b3f657bc914b56ecf7eea26ce9df0227ce020b44ae74c51e755348e130f50"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
